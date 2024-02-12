@@ -1,0 +1,76 @@
+{
+  "id": "dnd5e-es",
+  "title": "Translation: Español [DnD5e]",
+  "description": "Traducción al español del sistema de Dungeons &amp; Dragons 5E (SRD).",
+  "version": "3.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.315",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Toni Felix",
+      "email": "tonifelix299@gmail.com",
+      "discord": "endariel#6764",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "styles": [
+    "css/dnd5e-es.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "3",
+          "verified": "3.0.1",
+          "maximum": "4"
+        },
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.5.2",
+          "verified": "2.5.2",
+          "maximum": "2.5.2"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd5e-es/assets/setup-cover.png",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "url": "modules/dnd5e-es/assets/logo.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/ravanno/ravanno-dnd5e-es",
+  "manifest": "https://raw.githubusercontent.com/toni299/dnd5e-es/main/module.json",
+  "download": "https://github.com/toni299/dnd5e-es/archive/refs/heads/main.zip"
+}
