@@ -70,7 +70,7 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/ravanno/ravanno-dnd5e-es",
+  "url": "https://github.com/toni299/dnd5e-es",
   "manifest": "https://raw.githubusercontent.com/toni299/dnd5e-es/master/module.json",
   "download": "https://github.com/toni299/dnd5e-es/archive/refs/heads/master.zip"
 }
